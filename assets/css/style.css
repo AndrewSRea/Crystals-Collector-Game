@@ -1,0 +1,82 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+ 
+/*downloaded background image from freefrontend.com*/
+body {
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0) 0, #730046 0, #730046 0.48em, rgba(255, 255, 255, 0) 0.48em) 3em 0, 
+                linear-gradient(to left bottom, rgba(255, 255, 255, 0) 0, #730046 0, #730046 0.48em, rgba(255, 255, 255, 0) 0.48em) 3em 0, 
+                linear-gradient(to right bottom, rgba(255, 255, 255, 0) 0, #730046 0, #730046 0.48em, rgba(255, 255, 255, 0) 0.48em) 3em 0, 
+                linear-gradient(to left top, rgba(255, 255, 255, 0) 0, #730046 0, #730046 0.48em, rgba(255, 255, 255, 0) 0.48em) 3em 0, 
+                linear-gradient(to right top, rgba(255, 255, 255, 0) 0, #730046 0, #730046 0.48em, rgba(255, 255, 255, 0) 0.48em) 0 3em, 
+                linear-gradient(to left bottom, rgba(255, 255, 255, 0) 0, #730046 0, #730046 0.48em, rgba(255, 255, 255, 0) 0.48em) 0 3em, 
+                linear-gradient(to right bottom, rgba(255, 255, 255, 0) 0, #730046 0, #730046 0.48em, rgba(255, 255, 255, 0) 0.48em) 0 3em, 
+                linear-gradient(to left top, rgba(255, 255, 255, 0) 0, #730046 0, #730046 0.48em, rgba(255, 255, 255, 0) 0.48em) 0 3em, 
+                linear-gradient(to right top, rgba(255, 255, 255, 0) 0, #C93C00 0, #C93C00 0.48em, #E88801 0, #E88801 0.96em, #FFC200 0, #FFC200 1.44em, #BFBB11 0, #BFBB11 1.92em, #730046 0, #730046 2.4em, rgba(255, 255, 255, 0) 0.48em) 0 0, 
+                linear-gradient(to right bottom, rgba(255, 255, 255, 0) 0, #C93C00 0, #C93C00 0.48em, #E88801 0, #E88801 0.96em, #FFC200 0, #FFC200 1.44em, #BFBB11 0, #BFBB11 1.92em, #730046 0, #730046 2.4em, rgba(255, 255, 255, 0) 0.48em) 0 0, 
+                linear-gradient(to left top, rgba(255, 255, 255, 0) 0, #C93C00 0, #C93C00 0.48em, #E88801 0, #E88801 0.96em, #FFC200 0, #FFC200 1.44em, #BFBB11 0, #BFBB11 1.92em, #730046 0, #730046 2.4em, rgba(255, 255, 255, 0) 0.48em) 0 0, 
+                linear-gradient(to left bottom, rgba(255, 255, 255, 0) 0, #C93C00 0, #C93C00 0.48em, #E88801 0, #E88801 0.96em, #FFC200 0, #FFC200 1.44em, #BFBB11 0, #BFBB11 1.92em, #730046 0, #730046 2.4em, rgba(255, 255, 255, 0) 0.48em) 0 0, 
+                linear-gradient(to right top, rgba(255, 255, 255, 0) 0, #C93C00 0, #C93C00 0.48em, #E88801 0, #E88801 0.96em, #FFC200 0, #FFC200 1.44em, #BFBB11 0, #BFBB11 1.92em, #730046 0, #730046 2.4em, rgba(255, 255, 255, 0) 0.48em) 3em 3em, 
+                linear-gradient(to right bottom, rgba(255, 255, 255, 0) 0, #C93C00 0, #C93C00 0.48em, #E88801 0, #E88801 0.96em, #FFC200 0, #FFC200 1.44em, #BFBB11 0, #BFBB11 1.92em, #730046 0, #730046 2.4em, rgba(255, 255, 255, 0) 0.48em) 3em 3em, 
+                linear-gradient(to left top, rgba(255, 255, 255, 0) 0, #C93C00 0, #C93C00 0.48em, #E88801 0, #E88801 0.96em, #FFC200 0, #FFC200 1.44em, #BFBB11 0, #BFBB11 1.92em, #730046 0, #730046 2.4em, rgba(255, 255, 255, 0) 0.48em) 3em 3em, 
+                linear-gradient(to left bottom, rgba(255, 255, 255, 0) 0, #C93C00 0, #C93C00 0.48em, #E88801 0, #E88801 0.96em, #FFC200 0, #FFC200 1.44em, #BFBB11 0, #BFBB11 1.92em, #730046 0, #730046 2.4em, rgba(255, 255, 255, 0) 0.48em) 3em 3em;
+    background-size: 6em 6em;
+    background-color: #E9F1DF;
+    background-repeat: repeat;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+#crystalHead {
+    background: #191970;
+    margin: 0 0 10px;
+    z-index: 99;
+    color: #ffffff;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+}
+
+#headline {
+    text-align: center;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.ruleContainer {
+    clear: both;
+}
+
+#rules {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: -1px -1px 0 #191970, 1px -1px 0 #191970, -1px 1px 0 #191970, 1px 1px 0 #191970;
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crystal {
+    border: 1px solid green;
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 50px;
+    
+}
+
+
+
