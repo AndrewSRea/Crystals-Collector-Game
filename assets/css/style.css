@@ -51,16 +51,26 @@ body {
 }
 
 .ruleContainer {
-    clear: both;
+    padding: 125px 0 40px 0;
 }
 
-#rules {
+#rules, #shoutOut {
     text-align: center;
     color: #ffffff;
     font-size: 20px;
     text-shadow: -1px -1px 0 #191970, 1px -1px 0 #191970, -1px 1px 0 #191970, 1px 1px 0 #191970;
 }
 
+#randomNum, #wins, #loss, #total {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 #191970, 1px -1px 0 #191970, -1px 1px 0 #191970, 1px 1px 0 #191970;
+}
+
+.randomContainer {
+    padding: 30px 0 30px 0;
+}
 .crystals {
     display: flex;
     justify-content: space-around;
@@ -76,6 +86,21 @@ body {
 img {
     width: 50px;
     
+}
+
+.totalContainer {
+    padding: 30px 0 30px 0;
+}
+
+footer {
+    background: #191970;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    padding: 30px 0;
+    clear: both;
 }
 
 
