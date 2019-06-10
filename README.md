@@ -1,6 +1,6 @@
-# Unit-4-game
+# Crystals-Collector-Game
 
-https://andrewsrea.github.io/Unit-4-game/
+https://andrewsrea.github.io/Crystals-Collector-Game/
 
 Here's how the app works:
 
