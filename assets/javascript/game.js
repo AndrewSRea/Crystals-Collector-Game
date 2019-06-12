@@ -7,6 +7,8 @@ var resetGame = function() {
 
     $(".crystals").empty();
 
+    var image = "https://i.pinimg.com/originals/bd/4e/0c/bd4e0c1db2341cb53a73f001abbbcbe5.jpg"
+
     gameRandomNum = Math.floor(Math.random() * 69) + 30;
 
     $("#randomNum").html('Random Number: ' + gameRandomNum);
@@ -15,11 +17,15 @@ var resetGame = function() {
         
         var randomNum = Math.floor(Math.random() * 11) +1;
 
-        var crystal = $("<div>");
+        var crystal = $("<img>");
             crystal.attr({
                 "class": 'crystal',
-                "data-random": randomNum
+                "data-random": randomNum,
+                "src": image,
+                "height": '198px',
+                "width": '198px',
             });
+            console.log(image)
 
         $(".crystals").append(crystal);
         
